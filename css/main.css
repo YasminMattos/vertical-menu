@@ -1,0 +1,29 @@
+div {
+    background-color: #f3f3e9;
+    box-sizing: border-box;
+    display: block;
+    width: 20%;
+    height: 10%;
+    padding-left: 1em;
+    box-shadow: 2px 0px 0px black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#content:hover, #content-start:hover {
+    background-color:#c6ccd4;
+    padding: 1em;
+    cursor: pointer;
+}
+
+#content-start:hover {
+    color: black;
+
+}
+
+#content-start {
+    background-color: #ffc107;
+    padding: 1em;
+    color: white;
+}
