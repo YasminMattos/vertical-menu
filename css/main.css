@@ -1,28 +1,31 @@
-div {
-    background-color: #f5f5f0;
-    box-sizing: border-box;
-    display: block;
-    width: 20%;
-    height: 10%;
-    padding-left: 1em;
-    box-shadow: 2px 0px 0px black;
-    font-family: sans-serif;
+.first {
+    padding: 0em 1em 0em 1em;
+    text-align: center;
 }
 
+div {
+    background-color: #f5f5f0;
+    display: block;
+    width: 35%;
+    height: 5%;
+    padding: 1em;
+    box-shadow: 2px 0px 0px black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
 
-
-#content:hover, #content-start:hover {
+#content:hover, #start-content:hover {
     background-color:#e0e0d1;
     padding: 1em;
     cursor: pointer;
 }
 
-#content-start:hover {
+#start-content:hover {
     color: black;
 
 }
 
-#content-start {
+#start-content {
     background-color: #ffc107;
     padding: 1em;
     color: white;
